@@ -1,0 +1,107 @@
+#root{
+    overflow: hidden;
+  background-color: #f7f7f7;
+  background-image: url('Shared/fake-cannabis-medication-in-australia.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Asap", sans-serif;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  width: 80%;
+  margin: 50px auto;
+    box-shadow: 5px 10px 10px rgba(2, 128, 144, 0.2);
+}
+
+
+.scroll
+{
+  max-height: 600px;
+  overflow-y: scroll;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.card-container.card {
+  max-width: 450px !important;
+  padding: 40px 40px;
+}
+
+.card {
+  background-color: #f7f7f7;
+  padding: 20px 25px 30px;
+  margin: 50px auto 25px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: 6px 6px 3px rgba(2, 128, 144, 0.25);
+  -webkit-box-shadow: 6px 6px 3px rgba(2, 128, 144, 0.25);
+  box-shadow: 6px 6px 3px rgba(2, 128, 144, 0.25);
+}
+
+.navbar{
+  background-color: #0069D9;
+  -moz-box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.jumbotron{
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: 6px 6px 3px rgba(43, 43, 43, 0.3);
+  -webkit-box-shadow: 6px 6px 3px rgba(43, 43, 43, 0.3);
+  box-shadow: 6px 6px 3px rgba(43, 43, 43, 0.3);
+}
+
+
