@@ -20,10 +20,6 @@ The Pharmaceutical supply chain is the sequence of activities and process to bri
 - Seamless collaboration between all parties
 - Reduce paper work and Speedup process
 
-#### Application Workflow Diagram
----
-![](https://raw.githubusercontent.com/iamrobbiejr/Blockchain_SupplyChain/master/assets/flow/Blockchain_Pharmaceutical_SupplyChain.png)
-
 #### Roles
 ---
 1. Admin
