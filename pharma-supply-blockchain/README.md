@@ -60,7 +60,7 @@ The Pharmaceutical supply chain is the sequence of activities and process to bri
 **Setting up Ethereum Smart Contract:**
 
 ```
-git clone https://github.com/Fr33lance/pharma-supply-blockchain
+git clone https://github.com/iamrobbiejr/HIT-400.git
 cd pharma-supply-blockchain/
 ```
 **Update truffle-config.js **
@@ -181,7 +181,6 @@ Summary
 **Setting up SupplyChain UI:**
 
 ```
-git clone https://github.com/Fr33lance/pharma-supply-ui
 cd pharma-supply-ui
 yarn install
 yarn start
