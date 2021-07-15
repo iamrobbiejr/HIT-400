@@ -143,6 +143,7 @@ const wd_ship_batch = async(batchId,receiver,userAddress) =>
 //update status, (accept or reject) returns with message
 const accept_shipment = async(batchId,location,userAddress) =>
 {
+    console.log(userAddress);
     const web3 = new Web3(Web3.givenProvider || "http://127.0.0.1:8545");
     // const accounts = await web3.eth.getAccounts();
 

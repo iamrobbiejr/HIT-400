@@ -172,9 +172,9 @@ function Register(props){
                                 >
                                     <option value="" selected disabled>Please Choose</option>
                                     <option value="Manufacturer">Manufacturer</option>
-                                    <option value="Wholesaler">Wholesaler</option>
-                                    <option value="Distributor">Distributor</option>
-                                    <option value="Retailer">Retailer/Pharma</option>
+                                    <option value="Wholesaler">Wholesaler / Distributor</option>
+                                    {/*/<option value="Distributor">Distributor</option>/*/}
+                                    <option value="Retailer">Retailer/ Pharma</option>
                                 </select>
                             </div>
                             <div className="form-group">

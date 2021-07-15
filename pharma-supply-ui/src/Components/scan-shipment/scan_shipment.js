@@ -26,11 +26,11 @@ const required = (value) => {
 };
 
 
-const Scan_Shipment = () =>{
+const Scan_Shipment = (props) =>{
 
     const [batch_Id, setBatchId] = useState('');
 
-    const { id } = useParams();
+    const id = JSON.parse(localStorage.getItem('batchId'));
     console.log("batch: " + id);
 
     const checkBtn = useRef();
@@ -122,6 +122,9 @@ const Scan_Shipment = () =>{
                         console.log("response: ",res);
                         setMessage("Batch Has Been Accepted");
                         setSuccessful(true);
+                        if(currentUser.role !== 'Manufacturer'){
+                            props.history.push('/WD_ShipProduct');
+                        }
                     }).catch(err => {
                     console.log("error: ",err);
                     setSuccessful(false);

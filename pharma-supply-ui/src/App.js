@@ -31,7 +31,7 @@ const App = () => {
             <Route path={'/profile'} component={Profile} />
             <Route path={'/ship-product'} component={Ship_Product}/>
             <Route path={'/WD_ShipProduct'} component={WD_ShipProduct} />
-            <Route path={'/scan_shipment/:id'} component={Scan_Shipment} />
+            <Route path={'/scan_shipment'} component={Scan_Shipment} />
           </Switch>
         </div>
       </div>

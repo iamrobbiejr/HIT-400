@@ -164,6 +164,11 @@ const Check_Product = (props) => {
         }
     }
 
+    const openScanShipment = (value) => {
+        localStorage.setItem('batchId', JSON.stringify(value));
+        props.history.push('/scan_shipment');
+    }
+
     return (
         <div>
             <NavBar />
@@ -251,7 +256,7 @@ const Check_Product = (props) => {
                                 <p id="transition-modal-description"><span className="font-weight-bold">Status: </span>{batch.status}</p>
                                 <p id="transition-modal-description"><span className="font-weight-bold">Complete Chain: </span><span className="text-uppercase text-primary">{batch.chain}</span></p>
                                 {showScanButton && (
-                                    <Link to={{pathname: `/scan_shipment/${batchId}`, state: {id: batchId}}}  className="btn rounded-pill btn-outline-primary">Scan Shipment ( On Arrival)</Link>
+                                    <Link onClick={() => openScanShipment(batchId)} className="btn rounded-pill btn-outline-primary">Scan Shipment ( On Arrival)</Link>
                                 )}
                             </div>
                         </Fade>
